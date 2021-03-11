@@ -1,0 +1,34 @@
+{
+    "title": "Root Type for ATM",
+    "description": "atm entity",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "postalCode": {
+            "type": "string"
+        },
+        "telephone": {
+            "type": "string"
+        }
+    },
+  "required": [
+    "name",
+    "id",
+    "address"
+  ],    
+    "example": {
+        "id": "",
+        "name": "some text",
+        "address": "atm address",
+        "postalCode": "12345",
+        "telephone": "12345678"
+    }
+}
